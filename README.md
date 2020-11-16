@@ -1,7 +1,7 @@
 # test
 
 # Data
-Available [here](). 
+Available [here](https://www.kaggle.com/awsaf49/brats20-dataset-training-validation). 
 
 All BraTS multimodal scans are available as NIfTI files (.nii.gz) and describe a) native (T1) and b) post-contrast T1-weighted (T1Gd), c) T2-weighted (T2), and d) T2 Fluid Attenuated Inversion Recovery (T2-FLAIR) volumes.
 
@@ -10,12 +10,12 @@ Annotations comprise the GD-enhancing tumor (ET — label 4), the peritumoral ed
 multimodal slices with segmented mask:
 
 <p>
- <img src="https://github.com/mandrakedrink/test/blob/main/stats/data_sample.svg" width="60%" height="60%">
+ <img src="https://github.com/mandrakedrink/brats20_Unet3d_AutoEncoder/blob/master/stats/data_sample.svg" width="60%" height="60%">
 </p>
 
 3d projections of multimodal scans and segmented mask:
 <p>
- <img src="https://github.com/mandrakedrink/test/blob/main/stats/sample_data.gif" width="60%" height="60%">
+ <img src="https://github.com/mandrakedrink/brats20_Unet3d_AutoEncoder/blob/master/stats/sample_data.gif" width="60%" height="60%">
 </p>
 
 # Formulation of the problem:
@@ -29,15 +29,15 @@ multimodal slices with segmented mask:
 # Result
 Unet Result:
 <p>
- <img src="https://github.com/mandrakedrink/test/blob/main/stats/result1.svg" width="40%" height="40%">
+ <img src="https://github.com/mandrakedrink/brats20_Unet3d_AutoEncoder/blob/master/stats/result1.svg" width="40%" height="40%">
 </p>
 <p>
- <img src="https://github.com/mandrakedrink/test/blob/main/stats/unet_result.gif" width="60%" height="60%">
+ <img src="https://github.com/mandrakedrink/brats20_Unet3d_AutoEncoder/blob/master/stats/unet_result.gif" width="60%" height="60%">
 </p>
 
 AutoEncoer Result:
 <p>
- <img src="https://github.com/mandrakedrink/test/blob/main/stats/ae_result.gif" width="60%" height="60%">
+ <img src="https://github.com/mandrakedrink/brats20_Unet3d_AutoEncoder/blob/master/stats/ae_result.gif" width="60%" height="60%">
 </p>
 
 More results can be seen [here]() or [here]().
