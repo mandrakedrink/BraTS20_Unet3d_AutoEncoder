@@ -18,6 +18,8 @@ multimodal slices with segmented mask:
  <img src="https://github.com/mandrakedrink/brats20_Unet3d_AutoEncoder/blob/master/stats/sample_data.gif" width="60%" height="60%">
 </p>
 
+You can also see 3D data projection [here](https://youtu.be/nrmizEvG8aM)
+
 # Formulation of the problem:
 + 1. Each pixel must be labeled “1” if it is part of one of the classes (NCR/NET — label 1, ED — label 2, ET — label 4), and “0” if not.
 + 2. Make a prediction of age and survival days for each unique identifier in the data.
