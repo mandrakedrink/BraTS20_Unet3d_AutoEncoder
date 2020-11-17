@@ -42,4 +42,4 @@ AutoEncoer Result:
  <img src="https://github.com/mandrakedrink/brats20_Unet3d_AutoEncoder/blob/master/stats/ae_result.gif" width="60%" height="60%">
 </p>
 
-More results can be seen [here]() or [here]().
+More results can be seen [here](https://www.kaggle.com/polomarco/brats20-3dunet-3dautoencoder) or [here](https://www.youtube.com/watch?v=0nliIOj2WVQ).
