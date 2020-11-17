@@ -37,7 +37,7 @@ Unet Result:
  <img src="https://github.com/mandrakedrink/brats20_Unet3d_AutoEncoder/blob/master/stats/unet_result.gif" width="60%" height="60%">
 </p>
 
-AutoEncoer Result:
+AutoEncoder Result:
 <p>
  <img src="https://github.com/mandrakedrink/brats20_Unet3d_AutoEncoder/blob/master/stats/ae_result.gif" width="60%" height="60%">
 </p>
