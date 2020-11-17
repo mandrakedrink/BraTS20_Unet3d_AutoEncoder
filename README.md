@@ -25,8 +25,8 @@ You can also see 3D data projection [here](https://youtu.be/nrmizEvG8aM)
 + 2. Make a prediction of age and survival days for each unique identifier in the data.
 
 # Solution
-+ 1. For automatical segmentation was used Unet3d with group normal layers. - [unet]()
-+ 2. To predict age and number of days of survival - the autoencoder was trained to scale the space from 4 * 240 * 240 * 150 to 512, then statistical values, and hidden representations were extracted for each identifier in the data, encoded by the pretrained autoencoder. after wich SVR was trained on this data. - [autoencoder]()
++ 1. For automatical segmentation was used Unet3d with group normal layers. - [unet](https://github.com/mandrakedrink/BraTS20_Unet3d_AutoEncoder/tree/master/unet)
++ 2. To predict age and number of days of survival - the autoencoder was trained to scale the space from 4 * 240 * 240 * 150 to 512, then statistical values, and hidden representations were extracted for each identifier in the data, encoded by the pretrained autoencoder. after wich SVR was trained on this data. - [autoencoder](https://github.com/mandrakedrink/BraTS20_Unet3d_AutoEncoder/tree/master/autoencoder)
 
 # Result
 Unet Result:
